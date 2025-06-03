@@ -1,0 +1,54 @@
+body {
+    font-family: Roboto;
+    margin: 0 ;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    background: #f1f1f1;
+    border: none;
+    font-size: 20px;
+    transition: background 0.3s;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.tab-btn:hover {
+    background: #ddd;
+}
+
+.tab-btn.active {
+    background: #4CAF50;
+    color: white;
+}
+
+.tab-content {
+    width: 50%;
+    display: none;
+    padding: 20px;
+    border: 3px solid #e8e8e8;
+    border-radius: 10px;
+    animation: fadeEffect 0.5s;
+}
+
+.tab-content.active {
+    display: block;
+    background: #ffffff;
+}
+
+p{
+    font-size: 18px;
+}
+
+li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
