@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+}
+
+.pic{
+    width: 30%;
+    height: 30%;
+}
+
+.container{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px){
+    .container{
+        justify-content: center;
+        flex-direction: column;
+    }
+}
